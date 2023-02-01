@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{B79A1E24-2F84-4642-9D86-9188E500C2E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{58F96BA6-76BC-47DD-9B89-7B025E9CB030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{58F96BA6-76BC-47DD-9B89-7B025E9CB030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Excels", "Excels", "{56B09F5E-EF90-4077-B6FC-98AFBAFB9B93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B79A1E24-2F84-4642-9D86-9188E500C2E6} = {F6E3B3A8-AA9D-4283-BEB3-729FA617C71B}
 		{58F96BA6-76BC-47DD-9B89-7B025E9CB030} = {B79A1E24-2F84-4642-9D86-9188E500C2E6}
+		{56B09F5E-EF90-4077-B6FC-98AFBAFB9B93} = {F6E3B3A8-AA9D-4283-BEB3-729FA617C71B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9EA96679-E402-45FC-B06E-70093655DBE2}
